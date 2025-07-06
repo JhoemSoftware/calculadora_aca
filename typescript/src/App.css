@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/pocket-calculator');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: url('/madera.png');
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#logoRust {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.calculator {
+    background-color: #4e4d4d;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 5vmin auto;
+    box-shadow: 1px 20px 20px 5px #000;
+    border-bottom: 9px solid rgb(60, 60, 63);
+}
+
+.pantalla {
+    font-family: 'Pocket Calculator', monospace;
+    font-size: 3.6vmin;
+    color: rgb(48, 48, 65);
+    border-radius: 8px;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 0px 10px;
+    border-top: 6px solid rgb(71, 69, 69);
+}
+
+.encendido {
+    background-color: #92a799;
+}
+
+.apagado {
+    background-color: #59665e;
+}
+
+.pantalla p {
+    text-shadow: .8px .4px rgb(60, 60, 63);
+    font-style: italic;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 1vmin;
+    box-shadow: 1px 4px 2px #292929;
+}
+
+.form-check-input {
+    background-color: gray;
+    border: #292929;
+}
+
+.form-check-input:focus {
+    outline: none;
+    border: none;
+}
+
+.form-check-input:checked {
+    outline: none;
+    background-color: #000;
+    border: #292929;
+}

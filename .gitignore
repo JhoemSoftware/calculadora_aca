@@ -1,0 +1,5 @@
+typescriptfrontend/node_modules/
+typescriptfrontend/dist/
+typescriptfrontend/.env
+rust/target/
+rust/.env
