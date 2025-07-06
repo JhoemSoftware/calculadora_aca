@@ -28,3 +28,22 @@ El proyecto está desplegado en 2 servidores gratuitos (Render para el backend y
 
 >[!NOTE]
 > Es necesario iniciar o encender la calculadora para su funcionamiento
+
+### Especificaciones Técnicas 👨🏻‍🏫
+
+Aplicación backend en <b>Rust</b> responde a peticiones de tipo POST en el endpont: <code>https://backend-calculadora-m2nh.onrender.com/calcular</code>, requiere un body en la petición de la siguiente manera:
+```json
+{
+    "num1":5,
+    "num2":0,
+    "operador":"/"
+}
+```
+Y esta responde de la siguiente manera:
+```json
+{
+    "error":"División por cero no es permitida"
+}
+```
+
+> Podemos hacer una petición previa al servidor backend antes de iniciar el frontend para una mejor experiencia de usuario <code>curl -X POST https://backend-calculadora-m2nh.onrender.com/calcular -H "Content-Type: application/json" -d '{"num1":5, "num2":2, "operador":"*"}'</code> lo que nos respondería: <code>{"resultado":10.0}</code>
