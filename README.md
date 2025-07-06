@@ -10,11 +10,11 @@ Proyecto de Calculadora la cual fue construída en las siguientes tecnologías:
     <img src='./typescript/public/actix.png' width='55'>
     <b>Actix</b>: Framework de Rust para servidores web<br><br>
     <img src='./typescript/public/TS.png' width='48'>
-    <b>TypeScript</b>: Lenguage de programación del typescript<br><br>
+    <b>TypeScript</b>: Lenguage de programación del Frontend<br><br>
     <img src='./typescript/public/react.png' width='50'>
-    <b>React</b>: Librería de JavaScript para el typescript<br><br>
+    <b>React</b>: Librería de JavaScript para el Frontend<br><br>
     <img src='./typescript/public/bootstrap.png' width='48'>
-    <b>Bootstrap</b>: Framework de CSS para el typescript<br><br>
+    <b>Bootstrap</b>: Framework de CSS para el Frontend<br><br>
 </div>
 <hr>
 
